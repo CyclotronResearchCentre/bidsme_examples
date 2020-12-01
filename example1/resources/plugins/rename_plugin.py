@@ -4,7 +4,7 @@ import logging
 import shutil
 
 from tools import tools
-from bids import BidsSession
+from bidsMeta import BidsSession
 
 from definitions import Series, checkSeries, plugin_root
 

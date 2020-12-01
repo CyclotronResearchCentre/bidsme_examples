@@ -3,7 +3,7 @@ import shutil
 import logging
 import random
 
-from bids import BidsSession
+from bidsMeta import BidsSession
 
 from definitions import checkSeries, plugin_root
 
