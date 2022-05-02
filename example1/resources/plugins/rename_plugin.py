@@ -3,8 +3,8 @@ import pandas
 import logging
 import shutil
 
-from tools import tools
-from bidsMeta import BidsSession
+from bidsme.tools import tools
+from bidsme.bidsMeta import BidsSession
 
 from definitions import Series, checkSeries, plugin_root
 

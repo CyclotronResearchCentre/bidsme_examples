@@ -243,7 +243,7 @@ MRI:
         json: !!omap
           - EchoTime: <scale-3:EchoTime>
           - B1mapNominalFAValues: <B1mapNominalFAValues>
-          - IntendedFor: 
+          - IntendedFor:
               - "fmap/<<subject>>_<<session>>_acq-HeadPDw_B1minus.nii"
               - "fmap/<<subject>>_<<session>>_acq-BodyPDw_B1minus.nii"
               - "fmap/<<subject>>_<<session>>_acq-HeadT1w_B1minus.nii"
@@ -481,3 +481,5 @@ MRI:
           - EchoTime: <scale-3:EchoTime>
           - RepetitionTime: <scale-3:RepetitionTime>
           - FlipAngle: <FlipAngle>
+PET: {}
+EEG: {}
