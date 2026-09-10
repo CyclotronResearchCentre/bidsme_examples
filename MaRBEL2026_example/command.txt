@@ -1,0 +1,8 @@
+PREPARE
+bidsme prepare path_raw path_prepared --sub-prefix sub- --ses-prefix ses- -r MRI=MRI --skip-in-tsv --dry-run
+
+MAP
+bidsme map path_prepared path_mapped --plugin path_plugin --participants sub-xxx --dry-run
+
+BIDSIFY
+bidsme bidsify path_prepared path_bidsified --bidsmap path_bidsmap --plugin path_plugin --participants sub-xxx --dry-run
