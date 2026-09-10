@@ -7,7 +7,7 @@ The workshop was led by:
 - [Christophe Phillips](https://www.researchgate.net/profile/Christophe-Phillips)
 - [Antoine Jacquemin](https://www.researchgate.net/profile/Antoine-Jacquemin-2)
 
-from the **GIGA-CRC Human Imaging** ([University of Liège](https://www.gigacrc.uliege.be/cms/c_4212477/fr/gigacrc)).
+from the [GIGA-CRC Human Imaging](https://www.gigacrc.uliege.be/cms/c_4212477/fr/gigacrc) (University of Liège).
 
 ---
 
