@@ -6,10 +6,10 @@ This repository contains **example demonstrations** of the **BIDSme** tools deve
 
 ## 📌 **What is BIDS?**
 The **Brain Imaging Data Structure (BIDS)** is a standardized format for organizing and describing neuroimaging datasets. It promotes:
-✅ **Reproducibility** – Consistent structure across studies.
-✅ **Interoperability** – Compatible with a wide range of analysis tools.
-✅ **Transparency** – Clear metadata and file naming conventions.
-✅ **Automation** – Easier integration with pipelines and workflows.
+- ✅ **Reproducibility** – Consistent structure across studies.
+- ✅ **Interoperability** – Compatible with a wide range of analysis tools.
+- ✅ **Transparency** – Clear metadata and file naming conventions.
+- ✅ **Automation** – Easier integration with pipelines and workflows.
 
 For more details, check out the [BIDS Specification](https://bids-specification.readthedocs.io/en/stable/index.html) and validate your datasets using the [BIDS Validator](https://bids.neuroimaging.io/tools/validator.html).
 
