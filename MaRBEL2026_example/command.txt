@@ -1,5 +1,5 @@
 PREPARE
-bidsme prepare path_raw path_prepared --sub-prefix sub- --ses-prefix ses- -r MRI=MRI --skip-in-tsv --dry-run
+bidsme prepare path_raw path_prepared --sub-prefix sub- --ses-prefix ses- -r subfolder=MRI/PET/EEG --skip-in-tsv --dry-run
 
 MAP
 bidsme map path_prepared path_mapped --plugin path_plugin --participants sub-xxx --dry-run
