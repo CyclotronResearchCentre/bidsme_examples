@@ -1,0 +1,232 @@
+__bids__: 1.11.0
+PET:
+  jsonNIFTI:
+    pet:
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-PET\sub-039\ses-Baseline\PET\000-\sub-039_trc-thk_pet.nii.gz
+        example: pet/sub-039_ses-Baseline_trc-FDG_run-1_pet
+        checked: true
+        model: pet:pet
+        suffix: 'pet'
+        attributes:
+          "PharmaceuticalName": FDG
+        bids: !!omap
+          - task: ~
+          - trc: "FDG"
+          - rec: ~
+          - run: "<<increment>>"
+        json: !!omap
+          - Manufacturer: <Manufacturer>
+          - ManufacturersModelName: <ManufacturersModelName>
+          - Units: <Units>
+          - TracerName: <TracerName>
+          - TracerRadionuclide: <TracerRadionuclide>
+          - InjectedRadioactivity: 0
+          - InjectedRadioactivityUnits: <InjectedRadioactivityUnits>
+          - InjectedMass: 0
+          - InjectedMassUnits: <InjectedMassUnits>
+          - SpecificRadioactivity: 0
+          - SpecificRadioactivityUnits: <SpecificRadioactivityUnits>
+          - ModeOfAdministration: <ModeOfAdministration>
+          - TracerMolecularWeight: 0
+          - InjectedMassPerWeight: 0
+          - SpecificRadioactivityMeasTime: '00:00:00'
+          - MolarActivity: 0
+          - MolarActivityMeasTime: '00:00:00'
+          - InfusionRadioactivity: 0
+          - InfusionStart: 0
+          - InfusionSpeed: 0
+          - InjectedVolume: 0
+          - Purity: 0
+          - PharmaceuticalDoseAmount: 0
+          - TimeZero: <TimeZero>
+          - ScanStart: <ScanStart>
+          - InjectionStart: <InjectionStart>
+          - FrameTimesStart: <FrameTimesStart>
+          - FrameDuration: <FrameDuration>
+          - InjectionEnd: 0
+          - AcquisitionMode: <AcquisitionMode>
+          - ImageDecayCorrected: false
+          - ImageDecayCorrectionTime: 0
+          - ReconMethodName: <ReconMethodName>
+          - ReconMethodParameterLabels: <ReconMethodParameterLabels>
+          - ReconMethodParameterUnits: <ReconMethodParameterUnits>
+          - ReconMethodParameterValues: <ReconMethodParameterValues>
+          - ReconFilterType: <ReconFilterType>
+          - ReconFilterSize: <ReconFilterSize>
+          - AttenuationCorrection: <AttenuationCorrection>
+          - ScatterFraction: [0]
+          - PromptRate: [0]
+          - SinglesRate: [0]
+          - RandomRate: [0]
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-PET\sub-016\ses-Baseline\PET\000-\sub-016_trc-flut_pet.nii.gz
+        example: pet/sub-016_ses-Baseline_trc-Florbetapir_run-1_pet
+        checked: true
+        model: pet:pet
+        suffix: 'pet'
+        attributes:
+          "PharmaceuticalName": '\(18F\)Florbetapir'
+        bids: !!omap
+          - task: ~
+          - trc: "18F-Florbetapir"
+          - rec: ~
+          - run: "<<increment>>"
+        json: !!omap
+          - Manufacturer: <Manufacturer>
+          - ManufacturersModelName: <ManufacturersModelName>
+          - Units: <Units>
+          - TracerName: <TracerName>
+          - TracerRadionuclide: <TracerRadionuclide>
+          - InjectedRadioactivity: 0
+          - InjectedRadioactivityUnits: <InjectedRadioactivityUnits>
+          - InjectedMass: 0
+          - InjectedMassUnits: <InjectedMassUnits>
+          - SpecificRadioactivity: 0
+          - SpecificRadioactivityUnits: <SpecificRadioactivityUnits>
+          - ModeOfAdministration: <ModeOfAdministration>
+          - TracerMolecularWeight: 0
+          - InjectedMassPerWeight: 0
+          - SpecificRadioactivityMeasTime: '00:00:00'
+          - MolarActivity: 0
+          - MolarActivityMeasTime: '00:00:00'
+          - InfusionRadioactivity: 0
+          - InfusionStart: 0
+          - InfusionSpeed: 0
+          - InjectedVolume: 0
+          - Purity: 0
+          - PharmaceuticalDoseAmount: 0
+          - TimeZero: <TimeZero>
+          - ScanStart: <ScanStart>
+          - InjectionStart: <InjectionStart>
+          - FrameTimesStart: <FrameTimesStart>
+          - FrameDuration: <FrameDuration>
+          - InjectionEnd: 0
+          - AcquisitionMode: <AcquisitionMode>
+          - ImageDecayCorrected: false
+          - ImageDecayCorrectionTime: 0
+          - ReconMethodName: <ReconMethodName>
+          - ReconMethodParameterLabels: <ReconMethodParameterLabels>
+          - ReconMethodParameterUnits: <ReconMethodParameterUnits>
+          - ReconMethodParameterValues: <ReconMethodParameterValues>
+          - ReconFilterType: <ReconFilterType>
+          - ReconFilterSize: <ReconFilterSize>
+          - AttenuationCorrection: <AttenuationCorrection>
+          - ScatterFraction: [0]
+          - PromptRate: [0]
+          - SinglesRate: [0]
+          - RandomRate: [0]
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-PET\sub-002\ses-Baseline\PET\000-\sub-002_trc-flut_pet.nii.gz
+        example: pet/sub-002_ses-Baseline_trc-Flutemetamol_run-1_pet
+        checked: true
+        model: pet:pet
+        suffix: 'pet'
+        attributes:
+          "PharmaceuticalName": ".*flutemetamol"
+        bids: !!omap
+          - task: ~
+          - trc: "18F-Flutemetamol"
+          - rec: ~
+          - run: "<<increment>>"
+        json: !!omap
+          - Manufacturer: <Manufacturer>
+          - ManufacturersModelName: <ManufacturersModelName>
+          - Units: <Units>
+          - TracerName: <TracerName>
+          - TracerRadionuclide: <TracerRadionuclide>
+          - InjectedRadioactivity: 0
+          - InjectedRadioactivityUnits: <InjectedRadioactivityUnits>
+          - InjectedMass: 0
+          - InjectedMassUnits: <InjectedMassUnits>
+          - SpecificRadioactivity: 0
+          - SpecificRadioactivityUnits: <SpecificRadioactivityUnits>
+          - ModeOfAdministration: <ModeOfAdministration>
+          - TracerMolecularWeight: 0
+          - InjectedMassPerWeight: 0
+          - SpecificRadioactivityMeasTime: '00:00:00'
+          - MolarActivity: 0
+          - MolarActivityMeasTime: '00:00:00'
+          - InfusionRadioactivity: 0
+          - InfusionStart: 0
+          - InfusionSpeed: 0
+          - InjectedVolume: 0
+          - Purity: 0
+          - PharmaceuticalDoseAmount: 0
+          - TimeZero: <TimeZero>
+          - ScanStart: <ScanStart>
+          - InjectionStart: <InjectionStart>
+          - FrameTimesStart: <FrameTimesStart>
+          - FrameDuration: <FrameDuration>
+          - InjectionEnd: 0
+          - AcquisitionMode: <AcquisitionMode>
+          - ImageDecayCorrected: false
+          - ImageDecayCorrectionTime: 0
+          - ReconMethodName: <ReconMethodName>
+          - ReconMethodParameterLabels: <ReconMethodParameterLabels>
+          - ReconMethodParameterUnits: <ReconMethodParameterUnits>
+          - ReconMethodParameterValues: <ReconMethodParameterValues>
+          - ReconFilterType: <ReconFilterType>
+          - ReconFilterSize: <ReconFilterSize>
+          - AttenuationCorrection: <AttenuationCorrection>
+          - ScatterFraction: [0]
+          - PromptRate: [0]
+          - SinglesRate: [0]
+          - RandomRate: [0]
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-PET\sub-002\ses-Baseline\PET\000-\sub-002_trc-thk_pet.nii.gz
+        example: pet/sub-002_ses-Baseline_trc-THK_run-1_pet
+        checked: true
+        model: pet:pet
+        suffix: 'pet'
+        attributes:
+          "PharmaceuticalName": ".*THK5351"
+        bids: !!omap
+          - task: ~
+          - trc: "thk"
+          - rec: ~
+          - run: "<<increment>>"
+        json: !!omap
+          - Manufacturer: <Manufacturer>
+          - ManufacturersModelName: <ManufacturersModelName>
+          - Units: <Units>
+          - TracerName: <TracerName>
+          - TracerRadionuclide: <TracerRadionuclide>
+          - InjectedRadioactivity: 0
+          - InjectedRadioactivityUnits: <InjectedRadioactivityUnits>
+          - InjectedMass: 0
+          - InjectedMassUnits: <InjectedMassUnits>
+          - SpecificRadioactivity: 0
+          - SpecificRadioactivityUnits: <SpecificRadioactivityUnits>
+          - ModeOfAdministration: <ModeOfAdministration>
+          - TracerMolecularWeight: 0
+          - InjectedMassPerWeight: 0
+          - SpecificRadioactivityMeasTime: '00:00:00'
+          - MolarActivity: 0
+          - MolarActivityMeasTime: '00:00:00'
+          - InfusionRadioactivity: 0
+          - InfusionStart: 0
+          - InfusionSpeed: 0
+          - InjectedVolume: 0
+          - Purity: 0
+          - PharmaceuticalDoseAmount: 0
+          - TimeZero: <TimeZero>
+          - ScanStart: <ScanStart>
+          - InjectionStart: <InjectionStart>
+          - FrameTimesStart: <FrameTimesStart>
+          - FrameDuration: <FrameDuration>
+          - InjectionEnd: 0
+          - AcquisitionMode: <AcquisitionMode>
+          - ImageDecayCorrected: false
+          - ImageDecayCorrectionTime: 0
+          - ReconMethodName: <ReconMethodName>
+          - ReconMethodParameterLabels: <ReconMethodParameterLabels>
+          - ReconMethodParameterUnits: <ReconMethodParameterUnits>
+          - ReconMethodParameterValues: <ReconMethodParameterValues>
+          - ReconFilterType: <ReconFilterType>
+          - ReconFilterSize: <ReconFilterSize>
+          - AttenuationCorrection: <AttenuationCorrection>
+          - ScatterFraction: [0]
+          - PromptRate: [0]
+          - SinglesRate: [0]
+          - RandomRate: [0]

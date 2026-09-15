@@ -1,0 +1,335 @@
+__bids__: 1.11.0
+MRI:
+  hmriNIFTI:
+    __ignore__:
+      - provenance: ~
+        checked: true
+        model: __unknown__
+        suffix: ''
+        attributes:
+          ProtocolName: ['localizer', 'localizer_multislice_sag5', 'AAHead_Scout_64ch\.*',
+            'AAHead_Scout\.*', 't2_spc_da-fl_sag_p2_iso\.*', 'fl3d_iso1_NM_FoV192_05x05x20\.*',
+            'tse_LC\.*']
+        bids: !!omap []
+        json: !!omap []
+      - provenance: ~
+        checked: true
+        model: __unknown__
+        suffix: ''
+        attributes:
+          ImageType: ['DERIVED\\SECONDARY.*']
+        bids: !!omap []
+        json: !!omap []
+    anat:
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\005-t1_mpr_sag_p2_iso\s939-0005-00001-000224-01.nii
+        example: anat/sub-004_ses-Baseline_run-1_T1w
+        checked: true
+        model: anat:T1w
+        suffix: T1w
+        attributes:
+          ProtocolName: t1_mpr_sag_p2_iso
+        bids: !!omap
+          - task: ~
+          - acq: ~
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: ~
+          - part: ~
+          - chunk: ~
+        json: !!omap
+          - NumberShots: 
+              <CSASeriesHeaderInfo/MrPhoenixProtocol/sKSpace/lImagesPerSlab>
+          - DwellTime: <scale-6:CSAImageHeaderInfo/RealDwellTime>
+          - NonlinearGradientCorrection: false
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\007-T2_2D_0_4x0_4x1_2mm_180flip\s939-0007-00001-000001-01.nii
+        example: anat/sub-004_ses-Baseline_acq-2D_run-1_T2w
+        checked: true
+        model: anat:T2w
+        suffix: 'T2w'
+        attributes:
+          ProtocolName: T2_2D_0.4x0.4x1.2mm_180flip
+        bids: !!omap
+          - acq: 2D
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - mod: ~
+        json: !!omap
+          - NumberShots: 
+              <CSASeriesHeaderInfo/MrPhoenixProtocol/sKSpace/lImagesPerSlab>
+          - DwellTime: <scale-6:CSAImageHeaderInfo/RealDwellTime>
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\002-al_mtflash3d_T1w\s993-0002-00001-000176-01.nii
+        example: 
+          anat/sub-004_ses-Baseline_acq-T1w_run-1_echo-1_flip-1_mt-off_part-mag_MPM
+        checked: true
+        model: anat:MPM
+        suffix: MPM
+        attributes:
+          ProtocolName: al_mtflash3d_T1w
+          ImageType: ORIGINAL\\PRIMARY\\M\\ND
+        bids: !!omap
+          - task: ~
+          - acq: T1w
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '1'
+          - mt: off
+          - part: mag
+          - chunk: ~
+        json: !!omap
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+          - MTState: <MTState>
+          - EchoTime: <round10:scale-3:EchoTime>
+          - FlipAngle: <FlipAngle>
+          - RepetitionTimeExcitation: 0.0245
+          - NonlinearGradientCorrection: false
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\003-al_mtflash3d_T1w\s993-0003-00001-000176-01.nii
+        example: 
+          anat/sub-004_ses-Baseline_acq-T1w_run-1_echo-1_flip-1_mt-off_part-phase_MPM
+        checked: true
+        model: anat:MPM
+        suffix: MPM
+        attributes:
+          ImageType: 'ORIGINAL\\PRIMARY\\P\\ND'
+          ProtocolName: al_mtflash3d_T1w
+        bids: !!omap
+          - acq: T1w
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '1'
+          - mt: off
+          - part: phase
+        json: !!omap
+          - MTState: <MTState>
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\004-al_mtflash3d_PDw\s993-0004-00001-000176-01.nii
+        example: 
+          anat/sub-004_ses-Baseline_acq-PDw_run-1_echo-1_flip-2_mt-off_part-mag_MPM
+        checked: true
+        model: anat:MPM
+        suffix: MPM
+        attributes:
+          ProtocolName: al_mtflash3d_PDw
+          ImageType: ORIGINAL\\PRIMARY\\M\\ND
+        bids: !!omap
+          - task: ~
+          - acq: PDw
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '2'
+          - mt: off
+          - part: mag
+          - chunk: ~
+        json: !!omap
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+          - NonlinearGradientCorrection: false
+          - MTState: <MTState>
+          - EchoTime: <round10:scale-3:EchoTime>
+          - FlipAngle: <FlipAngle>
+          - RepetitionTimeExcitation: 0.0245
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\005-al_mtflash3d_PDw\s993-0005-00001-000176-01.nii
+        example: 
+          anat/sub-004_ses-Baseline_acq-PDw_run-1_echo-1_flip-2_mt-off_part-phase_MPM
+        checked: true
+        model: anat:MPM
+        suffix: MPM
+        attributes:
+          ProtocolName: al_mtflash3d_PDw
+          ImageType: ORIGINAL\\PRIMARY\\P\\ND
+        bids: !!omap
+          - task: ~
+          - acq: PDw
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '2'
+          - mt: off
+          - part: phase
+          - chunk: ~
+        json: !!omap
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+          - NonlinearGradientCorrection: false
+          - MTState: <MTState>
+          - EchoTime: <round10:scale-3:EchoTime>
+          - FlipAngle: <FlipAngle>
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\006-al_mtflash3d_MTw\s993-0006-00001-000176-01.nii
+        example: 
+          anat/sub-004_ses-Baseline_acq-MTw_run-1_echo-1_flip-1_mt-on_part-mag_MPM
+        checked: true
+        model: anat:MPM
+        suffix: MPM
+        attributes:
+          ProtocolName: al_mtflash3d_MTw
+          ImageType: ORIGINAL\\PRIMARY\\M\\ND
+        bids: !!omap
+          - task: ~
+          - acq: MTw
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '1'
+          - mt: on
+          - part: mag
+          - chunk: ~
+        json: !!omap
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+          - NonlinearGradientCorrection: false
+          - MTState: <MTState>
+          - EchoTime: <round10:scale-3:EchoTime>
+          - FlipAngle: <FlipAngle>
+          - RepetitionTimeExcitation: 0.0245
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\007-al_mtflash3d_MTw\s993-0007-00001-000176-01.nii
+        example: 
+          anat/sub-004_ses-Baseline_acq-MTw_run-1_echo-1_flip-1_mt-on_part-phase_MPM
+        checked: true
+        model: anat:MPM
+        suffix: MPM
+        attributes:
+          ProtocolName: al_mtflash3d_MTw
+          ImageType: ORIGINAL\\PRIMARY\\P\\ND
+        bids: !!omap
+          - task: ~
+          - acq: MTw
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '1'
+          - mt: on
+          - part: phase
+          - chunk: ~
+        json: !!omap
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+          - NonlinearGradientCorrection: false
+          - MTState: <MTState>
+          - EchoTime: <round10:scale-3:EchoTime>
+          - FlipAngle: <FlipAngle>
+    fmap:
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\008-al_B1mapping\s993-0008-00001-000001-01.nii
+        example: fmap/sub-004_ses-Baseline_run-1_echo-1_flip-01_TB1EPI
+        checked: true
+        model: fmap:TB1EPI
+        suffix: TB1EPI
+        attributes:
+          ProtocolName: al_B1mapping
+        bids: !!omap
+          - acq: ~
+          - ce: ~
+          - rec: ~
+          - run: "<<increment>>"
+          - echo: <EchoNumbers>
+          - flip: '<format02d:AcquisitionNumber>'
+          - inv: ~
+          - part: ~
+          - chunk: ~
+        json: !!omap
+          - EchoTimeSeries: 
+              <round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE>
+          - FlipAngleSeries: <<custom:faList>>
+          - NonlinearGradientCorrection: false
+          - MixingTime: <<custom:MixingTime>>
+          - EchoTime: <round10:scale-3:EchoTime>
+          - FlipAngle: <<custom:fa>>
+          - TotalReadoutTime: <<custom:TRT>>
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\009-gre_field_mapping\s993-0009-00001-000001-01.nii
+        example: fmap/sub-004_ses-Baseline_run-1_magnitude1
+        checked: true
+        model: fmap:magnitude1
+        suffix: magnitude<EchoNumbers>
+        attributes:
+          ProtocolName: gre_field_mapping
+          ImageType: ORIGINAL\\PRIMARY\\M\\ND
+        bids: !!omap
+          - acq: ~
+          - run: "<<increment>>"
+          - chunk: ~
+        json: !!omap
+          - HardcopyDeviceSoftwareVersion: ~
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\010-gre_field_mapping\s993-0010-00001-000001-02.nii
+        example: fmap/sub-004_ses-Baseline_run-1_phasediff
+        checked: true
+        model: fmap:phasediff
+        suffix: phasediff
+        attributes:
+          ProtocolName: gre_field_mapping
+          ImageType: ORIGINAL\\PRIMARY\\P\\ND
+        bids: !!omap
+          - acq: ~
+          - run: "<<increment>>"
+          - chunk: ~
+        json: !!omap
+          - EchoTime: ~
+          - EchoTime1: '<round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE/0>'
+          - EchoTime2: '<round10:scale-6:CSASeriesHeaderInfo/MrPhoenixProtocol/alTE/1>'
+          - NonlinearGradientCorrection: false
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\011-ep2d_diff_NODDI_iso2_p2_noise\s993-0011-00001-000001-01.nii
+        example: fmap/sub-004_ses-Baseline_acq-dwiRFoff_dir-AP_run-1_epi
+        checked: true
+        model: fmap:epi
+        suffix: epi
+        attributes:
+          ProtocolName: ep2d_diff_NODDI_iso2_p2_noise
+        bids: !!omap
+          - acq: dwiRFoff
+          - dir: AP
+          - run: "<<increment>>"
+        json: !!omap
+          - NonlinearGradientCorrection: false
+          - PhaseEncodingDirection: <PhaseEncodingDirection><PhaseEncodingSign>
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-004\ses-Baseline\MRI\012-ep2d_diff_NODDI_iso2_p2_invertpe\s993-0012-00001-000001-01.nii
+        example: fmap/sub-004_ses-Baseline_acq-dwiRFon_dir-PA_run-1_epi
+        checked: true
+        model: fmap:epi
+        suffix: epi
+        attributes:
+          ProtocolName: ep2d_diff_NODDI_iso2_p2_invertpe
+        bids: !!omap
+          - acq: dwiRFon
+          - dir: PA
+          - run: "<<increment>>"
+        json: !!omap
+          - NonlinearGradientCorrection: false
+          - PhaseEncodingDirection: <PhaseEncodingDirection><PhaseEncodingSign>
+    dwi:
+      - provenance: 
+          C:\Users\antoi\Documents\JOBS\PhD\COFITAGE\data\prepared_sub-all_mod-MRI\sub-001\ses-Baseline\MRI\015-ep2d_diff_NODDI_iso2_p2\f797-0015-00001-000001-01.nii
+        example: dwi/sub-001_ses-Baseline_acq-dwiRFon_dir-AP_run-1_dwi
+        checked: true
+        model: dwi:dwi
+        suffix: dwi
+        attributes:
+          ProtocolName: ep2d_diff_NODDI_iso2_p2
+        bids: !!omap
+          - acq: dwiRFon
+          - dir: AP
+          - run: "<<increment>>"
+        json: !!omap
+          - NonlinearGradientCorrection: false
